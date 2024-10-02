@@ -1,0 +1,61 @@
+/* InventoryPage.css */
+
+/* General styles for the container */
+.dashboard-container {
+    padding: 16px;
+    background-color: #EDF4DF; /* Beige background */
+    min-height: 100vh;
+}
+
+/* Styles for the heading */
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #9bb4a9; /* Dark green text */
+}
+
+/* Styles for the table container */
+.MuiTableContainer-root {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+.MuiTable-root {
+    min-width: 650px;
+    background-color: #e0e1e0; /* Dark green background for the table */
+}
+
+/* Table head styles */
+.MuiTableHead-root {
+    background-color: #0B2611; /* Dark green background for the header */
+}
+
+/* Table header cell styles */
+.MuiTableCell-head {
+    color: #F5F5DC; /* Beige text for the table header */
+}
+
+/* Table cell styles for the body */
+.MuiTableCell-root {
+    padding: 16px; /* Padding for table cells */
+    color: #F5F5DC; /* Beige text for the table cells */
+}
+
+/* Hover effect for table rows */
+.MuiTableRow-root:hover {
+    background-color: #ADB8A6; /* Ash gray on hover */
+}
+
+/* Styling for text in cells */
+.MuiTypography-root {
+    margin-bottom: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .MuiTable-root {
+        font-size: 0.8rem; /* Smaller font size for mobile */
+    }
+}

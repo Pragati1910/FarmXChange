@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mollen&display=swap');
+
+body {
+  font-family: 'Mollen', sans-serif;
+}
+
+.dashboard-container {
+  background-color: #EDF4DF;
+}
+
+.bg-dark-green {
+  background-color: #0A1E15;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-green {
+  color: #95CF24;
+}
+
+.text-red {
+  color: #FF0000;
+}
+
+.table-auto {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #0B2611;
+}
+
+tr:hover {
+  background-color: #ADB8A6;
+}

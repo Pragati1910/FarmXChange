@@ -1,0 +1,44 @@
+/* PickupPage.css */
+
+/* General styles for the page */
+body {
+    background-color: #f5f5f5; /* Light background color */
+    font-family: 'Roboto', sans-serif; /* Font style */
+  }
+  
+  /* Container styles */
+  .container {
+    margin: auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    max-width: 1200px; /* Maximum width for the container */
+  }
+  
+  /* Typography styles */
+  h4 {
+    font-weight: bold; /* Bold title */
+  }
+  
+  /* Form styling */
+  form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%; /* Full-width button */
+  }
+  
+  /* Map styling */
+  .google-map {
+    border-radius: 8px; /* Rounded corners for the map */
+    overflow: hidden; /* Clip overflow */
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #95CF24; /* Change button color on hover */
+  }
+  
